@@ -1,0 +1,52 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#bigbox{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 200px;
+    display: inline-block;
+
+}
+
+header h1{
+    align-self: flex-end;
+    text-align: center;
+}
+
+.col {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.col img {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 5px solid black;
+    padding: 2em;
+    margin: 1em;
+}
+
+body {
+    background-color: #d4d2ae;
+}
+
+.blue img{
+    background-color: #82b4ee;
+}
+
+.red img{
+    background-color: #f36870;
+}
+
